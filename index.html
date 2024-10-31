@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar.jpg.jpg" alt="avatar da Júlia" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Júlia</p>
+        <h1>Eu jogo Stardew Valley</h1>
+        <p>Sou latifundiária nível 17 dentro jogo, com maior habilidade em cultivo, coleta, mineração e pesca. Dou dicas sobre o jogo e gosto muito de rpg!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Cultivo</p>
+            <p class="badge bg-secondary">Coleta</p>
+            <p class="badge bg-secondary">Mineração</p>
+            <p class="badge bg-secondary">Pesca</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Minha fazenda</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/horta.jpg.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Plantações: maior fonte de renda da fazenda</h5>
+                        <p class="card-text">Essa é a primeira fase de qualquer fazenda, sendo amplianda conforme o jogo avança. 
+                            Você pode seguir exemplos de jogadores experientes ou seguir sua própria ideia. É importante que as lavouras sejam regadas regularmente,
+                            para que a qualidade aumente e, consequentemente, seu lucro também. As sementes e mudas podem ser compradas na loja do Pierre.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/animais.jpg.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de animais: cuidados maiores</h5>
+                        <p class="card-text">Essa parte da fazenda é lucrativa, mas não tanto quanto plantações de qualidade. 
+                            Os animais são desbloqueados conforme você investe e constrói em contruções dentro da área da fazenda.
+                            Galinhas e vacas são as primeiras possibilidades, compradas na loja da Marnie.
+                            </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/lago.jpg.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Pesca: a habilidade mais difícil
+                        </h5>
+                        <p class="card-text">A pesca é uma das habilidades mais complicadas (e divertida também), contando com um minigame
+                            e estratégias para melhor desempenho. Alguns peixes e animais aquáticos são mais difíceis que outros, 
+                            mas podem ser pescados com treino e alguns acessórios disponíveis na loja do Willy.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plantações: maior fonte de renda da fazenda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Cultivo é uma habilidade associada a plantar, fazer crescer e colher cultivos lavouras em sua fazenda. É uma das principais fontes de renda do jogo, e fornece ingredientes para a culinária.
+
+                        Ao colher, você pode ficar no centro de uma plantação de um quadrado, segure o botão direito do mouse, então mova o mouse sobre as colheitas para colher mais rapidamente.
+                        
+                        Para plantar, os jogadores devem primeiro preparar um pedaço de solo com uma enxada. Se eles pretendem usar fertilizante, devem aplicar antes de plantar a semente. A plantação deve ser regada a cada dia para crescer, a menos que esteja chovendo (quando não precisar de rega).
+                        
+                        Se o jogador não regar as plantações por um dia, a a planta não morrerá, mas também não crescerá nesse dia (efetivamente sendo adiada por dia).</p>
+                    <p>A fórmula para encontrar uma planta de qualidade ouro é 1% + 2% por nível de cultivo, até um máximo de 21% no level 10. A fórmula para encontra uma planta de qualidade prata é 2% + 4% por level, até um máximo de 42% no level 10, o jogo primeiro tem que falhar em conseguir uma planta de qualidade ouro antes de tentar conseguir uma planta de qualidade prata, então as chances para uma qualidade prata são um pouco reduzidas.
+
+                    </p>
+                    
+                    <img src="img/horta.jpg.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Criação de animais: cuidados maiores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>nimais servem como uma fonte de dinheiro e recursos em sua fazenda. Eles podem ser obtidos somente depois que um prédio é construído na fazenda que é adequado para abrigá-los (um galinheiro para galinhas, por exemplo) e com a exceção do cavalo e do animal de estimação, deve ser comprado do Rancho da Marnie ou incubado a partir de uma Chocadeira. Em ambos
+                         os casos, estes animais chegam como bebês e devem crescer se transformando em adultos antes de começar a gerar produtos de origem animal.
+                    </p>
+                    <p>nimais que vivem em galinheiros (galinhas, patos, coelhos e dinossauros) têm uma chance cada manhã de produzir produtos que podem ser reunidos no chão. Usando o balde de leite, as vacas geralmente podem ser ordenhadas diariamente, e as cabras geralmente podem ser ordenhadas uma vez a cada dois dias. 
+                        As ovelhas podem ser cortadas com as tesouras quando suas lãs crescem e os porcos podem ser deixados do lado de fora para cavar trufas.</p>
+                    
+                    <img src="img/animais.jpg.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pesca: a habilidade mais difícil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para lançar uma vara de pescar em um corpo d'água, mantenha pressionado o botão de Usar Ferramenta (Left-Click.png no PC, 360 X.png no Xbox, PS4 Square.png no Playstation, Switch Y.png no Switch). Um medidor aparece, indicando até onde a linha irá. Solte para lançar. Também é possível alterar ligeiramente o posicionamento da linha no meio do lançamento com as teclas de movimento (ou analógico do controle), permitindo um melhor controle sobre a mira do lançamento e permitindo 'lançar na diagonal' por 1 ladrilho, o que pode possibilitar acertar bolhas que de outra forma seria inacessível.
+
+                        Quando um peixe morde, a boia se mexe e um ponto de exclamação aparece acima da cabeça do personagem do jogador junto com um som distinto. Clique no botão de Usar Ferramenta para iniciar o minigame.
+                        
+                        A exibição do minigame contém um retângulo verde móvel que indica a área de efeito da linha de pesca. O objetivo do minigame de pesca é manter o pequeno ícone de peixe dentro do retângulo verde até que a barra de progresso à direita esteja completamente preenchida. Se o ícone
+                        
+                        do peixe se mover acima ou abaixo do retângulo verde, a barra de progresso diminui e o peixe escapa se a barra de progresso atingir o fundo.</p>
+                    
+                    <img src="img/lago.jpg.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Júlia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
